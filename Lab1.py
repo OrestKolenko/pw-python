@@ -40,3 +40,15 @@ print(date-timedelta(weeks=2))
 
 new_year = datetime.strptime("2023-Jan-1", "%Y-%b-%d")
 print((date - new_year).days)
+
+new_year = calendar.isleap(2024)
+print(new_year)
+
+print(date.strftime("%U"))
+
+
+rfc_date = datetime.strptime('2023-11-15 00:00:00', "%Y-%m-%d %H:%M:%S").strftime("%a, %d %b %Y %H:%M:%S %z")
+print(rfc_date)
+
+p_date = datetime(date.year, 7, 4)
+print(p_date.strftime("%A"))
