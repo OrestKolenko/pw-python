@@ -52,3 +52,18 @@ print(rfc_date)
 
 p_date = datetime(date.year, 7, 4)
 print(p_date.strftime("%A"))
+
+
+poczatek_roku=datetime(date.year,1,1)
+czas_uplyniety=(date - poczatek_roku).total_seconds()
+print(czas_uplyniety)
+
+this_date=datetime(2023, 11, 15)
+now_date=datetime.now()
+if this_date < now_date:
+    print("True")
+else:
+    print("False")
+
+rfc_date = datetime.strptime('2023-11-15 14:30:00', "%Y-%m-%d %H:%M:%S").strftime("%d  %Y %H:%M:%S %z")
+print(rfc_date)
