@@ -1,0 +1,21 @@
+{
+    "nazwa":"Jablecznik",
+    "skladniki": {
+        "maka":{
+            "ilosc":"3",
+            "jednostka":"szklanka"
+        },
+        "jajka":{
+            "ilosc":"2",
+            "jednostka":"sztuki"
+        },
+        "jablka":{
+            "ilosc":"1",
+            "jednostka":"kilogram"            
+        },
+        "cukier":{
+            "ilosc":"1",
+            "jednostka":"kilogram"   
+        }
+    }
+}
